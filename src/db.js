@@ -1,4 +1,4 @@
-import { createPool } from 'mysql2/promise'
+import { createPool } from 'mysql2'
 
 export const pool = createPool({
   user: 'root',
