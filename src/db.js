@@ -5,7 +5,7 @@ export const pool = createPool({
   password: 'tompassword',
   host: 'mymysql',
   database: 'tomdb',
-  port: 3307
+  port: 3306
 })
 
 
