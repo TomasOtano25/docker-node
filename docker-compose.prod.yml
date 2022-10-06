@@ -9,7 +9,7 @@ services:
       - 3000:3000
     command: bash -c 'npm i && npm start'
     depends_on:
-      - mongo
+      - sql
   mongo:
     image: mongo
     container_name: mymongo
