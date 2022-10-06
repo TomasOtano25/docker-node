@@ -21,7 +21,7 @@ services:
     image: mysql
     container_name: mymysql
     ports:
-      - 3306:3306
+      - 3307:3306
     logging:
       driver: none
     environment:
